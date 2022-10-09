@@ -1,0 +1,28 @@
+@mixin icon {
+   color: #555;
+   font-size: 18px !important;
+}
+
+.iconSearchResultItemBtn {
+   width: 26px;
+   height: 26px;
+   border-radius: 50%;
+   background: transparent;
+   border: 0;
+   cursor: pointer;
+}
+
+.hasHover {
+   &:hover {
+      background: #e6e6e6;
+      color: #333;
+   }
+}
+
+.iconSearchResultItem {
+   @include icon;
+}
+
+.iconSearchResultItemDelete {
+   @include icon;
+}

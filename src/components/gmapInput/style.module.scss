@@ -1,0 +1,18 @@
+.inputContainer {
+   position: absolute;
+   top: 8px;
+   border-radius: 8px;
+   z-index: 2;
+   background: white;
+   width: 400px;
+   left: 10px;
+}
+
+.autocomplete {
+   width: 500px;
+}
+
+.input {
+   width: 100%;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}

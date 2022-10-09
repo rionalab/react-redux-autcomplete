@@ -1,0 +1,29 @@
+.click {
+   cursor: pointer;
+}
+
+.searchResultItem {
+   display: grid;
+   cursor: pointer;
+   grid-template-columns: 36px 1fr;
+   align-items: center;
+   padding: 4px 16px;
+   margin-bottom: 4px;
+
+   &:hover {
+      background: #f8f8f8;
+   }
+}
+
+.labelSearchResultItem {
+   color: #777;
+   font-size: 13px;
+   white-space: nowrap;
+   font-weight: 400;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   span {
+      color: #444;
+      font-weight: 500;
+   }
+}
